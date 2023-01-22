@@ -431,8 +431,8 @@ connected to both networks.
     Containers `alpine1`, `alpine2`, and `alpine4` are connected to the
     `alpine-net` network.
 
-5.  On user-defined networks like `alpine-net`, containers can not only
-    communicate by IP address, but can also resolve a container name to an IP
+5.  On user-defined networks like `alpine-net`, containers not only
+    communicate by IP address, but also can resolve a container name to an IP
     address. This capability is called **automatic service discovery**. Let's
     connect to `alpine1` and test this out. `alpine1` should be able to resolve
     `alpine2` and `alpine4` (and `alpine1`, itself) to IP addresses.
